@@ -1,10 +1,10 @@
 //FC
 
 //<> es un fragment
+//DESTRUCTURACION
+const PrimeraApp = ( {saludo = 'hola mundito'})=>{
 
-const PrimeraApp = ()=>{
-
-    const saludo = "Hola mundo desde variable";
+    console.log(saludo);
     return (
         <> 
             <h1>Hola mundo </h1>
