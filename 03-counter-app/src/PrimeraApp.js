@@ -1,9 +1,9 @@
 //FC
-
+import PropTypes from 'prop-types';
 //<> es un fragment
 //DESTRUCTURACION
-const PrimeraApp = ( {saludo = 'hola mundito'})=>{
-
+const PrimeraApp = ( {saludo })=>{
+  
     console.log(saludo);
     return (
         <> 
@@ -13,6 +13,9 @@ const PrimeraApp = ( {saludo = 'hola mundito'})=>{
         </>
         );
 
+        
 }
-
+PrimeraApp.propTypes={
+            saludo:PropTypes.number.isRequired
+}
 export default PrimeraApp;
