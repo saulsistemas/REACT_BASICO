@@ -8,6 +8,7 @@
 /uploads
 # Node
 /02-intro-javascript/node_modules
+/03-counter-app/node_modules
 npm-debug.log
 yarn-error.log
 
